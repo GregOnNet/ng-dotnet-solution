@@ -126,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "course-app"
+    }
+  },
+  "defaultProject": "course-app",
+  "cli": {
+    "analytics": "0409e89f-2e7b-4544-b147-7ac5616732ab"
+  }
 }

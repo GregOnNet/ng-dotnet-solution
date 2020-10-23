@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>course_app</RootNamespace>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <Compile Remove="**" />
+        <None Remove="dist/**" />
+        <None Remove="js/**" />
+        <None Remove="node_modules/**" />
+    </ItemGroup>
+  
+</Project>
